@@ -8,7 +8,7 @@ import style from '../styles/Home.module.css'
 export default function Home(){
   return(
     <div className={style.global_container}>
-      Nagare
+      
         <Nav/>
         <SectionOne/>
         <About/>

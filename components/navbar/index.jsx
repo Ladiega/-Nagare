@@ -1,9 +1,11 @@
+import styles from './navbar.module.css'
+
 export default function Nav(){
     return(
-        <div>
-            <nav>
-                <p>navbar</p>
-                <ul>
+        
+        <div className={styles.navbar_container}>
+            <nav className={styles.navbar}>                
+                <ul className={styles.ul}>
                     <li>HOME</li>
                     <li>ABOUT US</li>
                     <li>CONTACT</li>
