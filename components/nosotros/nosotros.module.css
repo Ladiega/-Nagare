@@ -1,0 +1,7 @@
+.text_container{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+}

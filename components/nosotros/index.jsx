@@ -1,10 +1,17 @@
+import styles from './nosotros.module.css'
+
 export default function Nosotros(){
     return(
         <div>
+            <div className={styles.text_container}>
             <p>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nisi cupiditate inventore velit ducimus natus eos quasi beatae commodi id, illo ipsam aliquam suscipit tenetur eum nemo dignissimos corrupti aut fuga maiores. Asperiores qui est doloribus sit ducimus. Aspernatur provident facilis nobis aliquam esse totam. Commodi dolores eveniet perferendis ad aliquam. Ad sunt quaerat neque ea praesentium officiis rem cupiditate adipisci ex eum accusamus impedit saepe doloremque ipsum soluta distinctio voluptatem ipsam quod maxime, voluptatibus voluptas tempore corrupti fuga at. Dignissimos vitae doloribus vel ab, eaque velit explicabo nemo, sint aliquid ullam nesciunt sed voluptate expedita illum neque dolor itaque repellat eos et, ratione magnam dolorem suscipit! Explicabo fugiat non veniam assumenda asperiores vel tempora provident voluptas, consectetur, vero in iste? Distinctio sit eaque error vitae, suscipit ipsam ex porro quae? Tempora neque maxime ratione dolorum harum, molestiae velit reprehenderit quas quo consequuntur fugiat enim consequatur eum odit atque quaerat.
+            Somos una academia de Jiu-Jitsu Brasilero ubicada en el barrio Polo Club en Bogotá, Colombia, enfocada en la defensa personal y en la formación integral denuestos atletas. Tenemos como pilar en nuestra filosofía el respeto por el otro, el trabajo en grupo y el fortalecimiento de nuestras capacidades físicas personales. También enfocamos nuestro entrenamiento en el acondicionamiento físico y mental.
+            <br/><br/>Todas las personas están invitadas a hacer parte de nuestra academia y hacer parte de nuestro proceso de crecimiento deportivo. 
+            Como siempre, el arte suave es nuestra meta y nuestra visión<br/> <br/>
 
+            ¡Anímate a entrenar con Nosotros.! 
             </p>
+            </div>
         </div>
     )
 }

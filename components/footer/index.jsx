@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import instagram from '../../public/instagram.svg'
-import nagareBaner from '../../public/nagareBaner.png'
+import instagram from '../../public/instagramW.svg'
+import nagareBaner from '../../public/nagareBanerW.png'
 import styles from './footer.module.css'
 
 export default function Footer(){
@@ -13,7 +13,7 @@ export default function Footer(){
                   <Image
                     src={nagareBaner}
                     alt='nagare Logo'
-                    width={100}
+                    width={200}
                   />
 
                 </div>
@@ -24,6 +24,7 @@ export default function Footer(){
                   className="instagram-icon"
                   alt="Instagram"
                   src={instagram}
+                  width={40}
                   />
                 </Link>               
               </div>
