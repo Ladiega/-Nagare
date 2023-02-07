@@ -23,9 +23,9 @@ export default function Nosotros(){
             <br/> <br/>
             Ofrecemos clases    de adultos ,principiantes, niños, clases privadas tanto de bjj y acondicionamiento físico y talleres de defensa personal. Nuestros entrenadores están capacitados para adaptarse a tus necesidades y ofrecerte un muy buen plan de entrenamiento.
             <br/> <br/> 
-            Contamos
+            
 
-            ¡Anímate a entrenar con Nosotros.! 
+            <div className={styles.text_animate}> ¡Anímate a entrenar con Nosotros.! </div> 
             </p>               
             </div> 
             <div className={styles.entrenadores_container}>
