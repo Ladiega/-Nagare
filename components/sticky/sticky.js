@@ -20,7 +20,7 @@ export default function Sticky() {
     
       <nav ref={stickyRef} className={classNames("nav flex", { sticky })}>
       <ul className={styles.ul}>
-                    <li><Link href='/' className={styles.link}>NOSOTROS</Link> </li>
+                    <li><Link href='/nosotros' className={styles.link}>NOSOTROS</Link> </li>
                     <li><Link href='/' className={styles.link}>HORARIOS</Link> </li>
 										<li>
 											<Link href='/' className={styles.link}>

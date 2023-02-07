@@ -3,4 +3,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: gray;
+    padding-bottom:3rem;
+    margin-bottom: 0;
+}
+.form_container h1{
+    color:white;
+}
+
+.form_container button{
+    background-color: rgb(201, 12, 12);
+    margin-left: 1rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.form_container button:hover{
+    color: white;
+    transition: 0.5s;
 }

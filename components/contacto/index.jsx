@@ -1,3 +1,4 @@
+import { redirect } from 'next/dist/server/api-utils';
 import { useRef } from 'react';
 import styles from './contacto.module.css'
 export default function NewsLetterSignUpForm() {
@@ -25,9 +26,10 @@ export default function NewsLetterSignUpForm() {
     <div>
     <div className={styles.form_container}>
         <h1>Newsletter</h1>
+     
     <form onSubmit={subscribeUser}>
-      <label htmlFor="email-input" className="form__label">
-        Your Email
+      <label htmlFor="email-input" className="form__label" >
+        
       </label>
 
       <input
@@ -42,10 +44,11 @@ export default function NewsLetterSignUpForm() {
       />
 
       <button type="submit" value="" name="subscribe">
-        Subscribe
+        SUBSCRIBE
       </button>
     </form>
-    </div>
+    </div>  
+   
     </div>
   );
 }
