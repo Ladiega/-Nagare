@@ -1,25 +1,17 @@
-.navbar{
-    margin:3rem;
-}
+
 .ul {
-    /* margin: 3rem 3rem; */
-   
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: center;
+    gap:4rem;    
     list-style:none;
-}
-
-
-.navbar_container{
-    /* background-color:salmon; */
-
+    margin-right:3rem ;/*16px*/
 }
 .link{
    color:var(--colorTwo);
     text-decoration:none;
+    cursor: pointer;
    
 }
-@media screen {
-    
-}
+
+

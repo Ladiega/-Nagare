@@ -1,0 +1,6 @@
+.form_container{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
