@@ -21,7 +21,7 @@ export default function Sticky() {
       <nav ref={stickyRef} className={classNames("nav flex", { sticky })}>
       <ul className={styles.ul}>
                     <li><Link href='/nosotros' className={styles.link}>NOSOTROS</Link> </li>
-                    <li><Link href='/' className={styles.link}>HORARIOS</Link> </li>
+                    <li><Link href='/horarios' className={styles.link}>HORARIOS</Link> </li>
 										<li>
 											<Link href='/' className={styles.link}>
 												<Image
@@ -31,8 +31,8 @@ export default function Sticky() {
 												/>
 											</Link>
 											</li>
-                    <li><Link href='/' className={styles.link}>MERCH</Link> </li>
-                    <li><Link href='/' className={styles.link}>CONTACTO</Link> </li>
+                    <li><Link href='/merch' className={styles.link}>MERCH</Link> </li>
+                    <li><Link href='/contacto' className={styles.link}>CONTACTO</Link> </li>
                 </ul>
       </nav>
       

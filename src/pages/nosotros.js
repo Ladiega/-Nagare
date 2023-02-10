@@ -1,7 +1,9 @@
 import Sticky from "components/sticky/sticky"
 import Footer from "components/footer"
 import styles from '../styles/Nosotros.module.css'
+
 import Image from 'next/image'
+
 
 import Willie from '../../public/willie.jpeg'
 import Robi from '../../public/robi.jpeg'
@@ -13,9 +15,9 @@ import Mat from '../../public/mat.jpeg'
 export default function Nosotros(){
     return(
         <div>
-            <Sticky/>
-            <div className={styles.nosotros_container}>
-                
+           <Sticky/>
+            <div className={styles.global_container}>
+            
             <p>
             Somos una academia de Jiu-Jitsu Brasilero ubicada en el barrio Polo Club en Bogotá, Colombia, enfocada en la defensa personal y en la formación integral denuestos atletas. Tenemos como pilar en nuestra filosofía el respeto por el otro, el trabajo en grupo y el fortalecimiento de nuestras capacidades físicas personales. También enfocamos nuestro entrenamiento en el acondicionamiento físico y mental.
             <br/><br/>
@@ -29,12 +31,17 @@ export default function Nosotros(){
             </p>               
             </div> 
             <div className={styles.entrenadores_container}>
-            <h1>NUESTROS ENTRENADORES</h1>
+            <div><h1>NUESTROS ENTRENADORES</h1></div>
             <div className={styles.img_container}>
                 <Image
                     src={Robi}
                     alt="Robi foto"
                     className={styles.img}
+                />
+                <Image
+                src={Willie}
+                alt='Willie foto'
+                className={styles.img}
                 />
                  <Image
                     src={Rodo}
@@ -47,6 +54,7 @@ export default function Nosotros(){
                     className={styles.img}
                 />
                  <Image
+                 
                     src={Andy}
                     alt="Andres foto"
                     className={styles.img}

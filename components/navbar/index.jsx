@@ -10,8 +10,8 @@ export default function Nav(){
         <div className={styles.navbar_container}>
             <nav className={styles.navbar}>                
                 <ul className={styles.ul}>
-                    <li><Link href='/' className={styles.link}>NOSOTROS</Link> </li>
-                    <li><Link href='/' className={styles.link}>HORARIOS</Link> </li>
+                    <li><Link href='/nosotros' className={styles.link}>NOSOTROS</Link> </li>
+                    <li><Link href='/horarios' className={styles.link}>HORARIOS</Link> </li>
 										<li>
 											<Link href='/' className={styles.img}>
 												<Image
