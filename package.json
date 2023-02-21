@@ -12,7 +12,9 @@
     "@next/font": "13.1.6",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
+    "flat-carousel": "^0.0.1",
     "html-entities": "^2.3.3",
+    "html-react-table": "^1.0.3",
     "isomorphic-unfetch": "^4.0.2",
     "next": "13.1.6",
     "next-videos": "1.4.1",
@@ -22,6 +24,7 @@
     "react-player": "^2.11.0",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll-parallax": "^3.3.2",
+    "table": "^6.8.1",
     "video-react": "^0.16.0"
   }
 }

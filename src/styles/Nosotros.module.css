@@ -1,17 +1,19 @@
-
+.text_container{
+    
+    margin:3rem;
+}
 .nosotros_container{
     margin-left: 3rem;
     margin-right: 3rem;
     text-align: justify;
 }
 
+
 .text_animate{
     font-weight: 700;
     text-align: center;
 }
 .entrenadores_container{
-    
-    
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -19,14 +21,22 @@
     color: white;
 
 }
-.img_contanier{
+.img_container{
     display: flex;
-    aspect-ratio: 3/3;
-    object-fit: contain; 
-    color: red;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+   
+    
+}
+.img_container img{
+    width:100%;
+    
+    aspect-ratio: 3/2;   
+    object-fit: contain;
+    /*mix-blend-mode:color-burn;*/
 }
 
 .img{
-    margin-bottom: 3rem;
-   
+    margin-bottom:3rem;
 }

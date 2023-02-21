@@ -7,7 +7,7 @@ import styles from './footer.module.css'
 export default function Footer(){
     return(
         <div>
-          <footer className={styles.footer_container}>
+          <div className={styles.footer_container}>
            
             <div className='icon-nagare-container'>
                   <Image
@@ -38,7 +38,7 @@ export default function Footer(){
 
               </div>
             
-          </footer>
+          </div>
         </div>
     )
 }
