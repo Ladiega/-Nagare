@@ -17,7 +17,7 @@ export default function Nav(){
 												<Image
 												src={Logo}
 												alt='Nagare Logo'
-												width={100}
+												width={70}
 												/>
 											</Link>
 											</li>
