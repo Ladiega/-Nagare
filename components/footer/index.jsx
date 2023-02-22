@@ -63,7 +63,7 @@ export default function Footer(){
                 <div className={styles.textOne}>Nagare Brazilian Jiujitsu</div>
                 <div className={styles.textTwo}>Defensa Personal</div>
                 <div className={styles.textTree}>Carrera 21a, Barrios Unidos, Cundinamarca</div>
-                <div className={styles.textFour}>+57383928393</div>
+                <div className={styles.textFour}>+57 302 7531409</div>
                 <div className={styles.textFive}>nagarebjj@gmail.com</div>  
 
               </div>
