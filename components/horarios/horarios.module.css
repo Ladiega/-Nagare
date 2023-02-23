@@ -32,18 +32,26 @@
     
 
 }
+.lunes_container div{
+    border:2px solid transparent;
+}
 .lunes_container div:hover{
     border: 2px solid rgb(154, 6, 6);
     background-color: black;
     border-radius: 2px;
     cursor: pointer;
 }
-
+.martes_container div{
+    border:2px solid transparent;
+}
 .martes_container div:hover{
     border: 2px solid rgb(154, 6, 6);
     background-color: black;
     border-radius: 2px;
     cursor: pointer;
+}
+.miercoles_container div{
+    border:2px solid transparent;
 }
 
 .miercoles_container div:hover{
@@ -52,14 +60,18 @@
     border-radius: 2px;
     cursor: pointer;
 }
-
+.jueves_container div{
+    border: 2px solid transparent;
+}
 .jueves_container div:hover{
     border: 2px solid rgb(154, 6, 6);
     background-color: black;
     border-radius: 2px;
     cursor: pointer;
 }
-
+.viernes_container div{
+    border: 2px solid transparent;
+}
 .viernes_container div:hover{
     border: 2px solid rgb(154, 6, 6);
     background-color: black;
@@ -74,6 +86,9 @@
     margin: auto;
     max-width: 80%;
     border: 1px solid  rgb(154, 6, 6);;
+}
+.sabado_container div{
+    border: 2px solid transparent;
 }
 .sabado_container div{
     padding:0.2rem;
