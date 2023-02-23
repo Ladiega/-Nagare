@@ -3,7 +3,7 @@ import Footer from "components/footer"
 import styles from '../styles/Nosotros.module.css'
 
 import Image from 'next/image'
-
+import Head from "next/head"
 
 import Willie from '../../public/willie.jpeg'
 import Robi from '../../public/robi.jpeg'
@@ -18,6 +18,7 @@ export default function Nosotros(){
     return(
 
         <div>
+          <Head><title>NagareBjj Nosotros</title></Head>
            <Sticky />
             <div className={styles.text_container}>
             

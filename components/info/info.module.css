@@ -1,0 +1,9 @@
+.info_container{
+    text-align: center;
+    background-color:rgb(154, 6, 6);
+    color: white;
+}
+.info_titulo{
+    font-size: 39px;
+    font-weight: 700;
+}
