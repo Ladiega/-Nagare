@@ -1,9 +1,9 @@
-import styles from './sectionOne.module.css'
+import styles from './producto.module.css'
 
-export default function Merch(){
+export default function Prouductos(){
     return(
         <div>
-       		<div>
+       		<div className={styles.producto_container}>
                 MERCH            
         	</div>
         

@@ -7,9 +7,11 @@ import calvo from '../../public/img/calvoTattooLogoW.png'
 import nagareBaner from '../../public/nagareBanerW.png'
 import willie from '../../public/img/willieW.png'
 
+
 export default function Footer(){
     return(
         <div>
+          
           <div className={styles.footer_container}>
            
             <div className='icon-nagare-container'>

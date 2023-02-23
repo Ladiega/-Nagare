@@ -12,7 +12,7 @@ export default function Nav(){
                 <ul className={styles.ul}>
                     <li><Link href='/nosotros' className={styles.link}>NOSOTROS</Link> </li>
                     <li><Link href='/horarios' className={styles.link}>HORARIOS</Link> </li>
-										<li>
+										<li classname={styles.link}>
 											<Link href='/' className={styles.img}>
 												<Image
 												src={Logo}

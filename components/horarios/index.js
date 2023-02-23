@@ -1,17 +1,29 @@
+import Image from 'next/image'
 import styles from './horarios.module.css'
+import BanerW from '../../public/img/NagareBanerW.png'
+
 
 
 export default function Horarios() {
 	return (
 		<div>
 			<div className={styles.horario_container}>
-				HORARIO COMPONENT
+				
 				
 				<div className={styles.header}>
-					<h1>Header</h1>
+					<Image
+					alt='Nagare Baner'
+					src={BanerW}
+					className={styles.baner}
+					width={300}
+					/>
+				</div>
+				<div className={styles.horario_titulo}>
+					<h1>HORARIOS</h1>
 				</div>
 
 				<div className={styles.columnas_container}>
+				
 
 				<div className={styles.horas}>
 					<div>HORA</div>
