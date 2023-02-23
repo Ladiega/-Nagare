@@ -18,6 +18,7 @@ export default function Productos(){
                     alt='merch'
                     src={camiseta1}
                     className={styles.camiseta}
+                    width={300}
                     />
 
                 <div className={styles.card_titulo}>
@@ -34,6 +35,7 @@ export default function Productos(){
                     alt='merch'
                     src={camiseta2}
                     className={styles.camiseta2}
+                    width={300}
                     />
                      <div className={styles.card_titulo}>
                     CAMISETA NEGRA NAGARE
@@ -48,6 +50,7 @@ export default function Productos(){
                     alt='merch'
                     src={camiseta3}
                     className={styles.camiseta}
+                    width={300}
                     />
                      <div className={styles.card_titulo}>
                     CAMISETA BLANCA NAGARE
@@ -62,6 +65,7 @@ export default function Productos(){
                     alt='merch'
                     src={saco3}
                     className={styles.camiseta}
+                    width={300}
                     />
                      <div className={styles.card_titulo}>
                     SACO NEGRO
@@ -76,6 +80,7 @@ export default function Productos(){
                     alt='merch'
                     src={mughblanco}
                     className={styles.camiseta}
+                    width={300}
                     />
                      <div className={styles.card_titulo}>
                     MUGH BLANCO MONEDA NAGARE
@@ -90,6 +95,7 @@ export default function Productos(){
                     alt='merch'
                     src={mughnegro}
                     className={styles.camiseta}
+                    width={300}
                     />
                      <div className={styles.card_titulo}>
                     MUGH NEGRO BANER
